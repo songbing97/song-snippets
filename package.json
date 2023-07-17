@@ -4,6 +4,7 @@
   "description": "",
   "version": "0.0.1",
   "icon": "img/logo.png",
+  "publisher": "songbing",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -15,7 +16,12 @@
     "javascript",
     "vue",
     "react"
-],
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/songbing97/song-snippets"
+  },
+  "homepage": "https://github.com/songbing97/song-snippets/README.md",
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
