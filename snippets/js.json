@@ -1,0 +1,117 @@
+{
+  "Arrow Function": {
+    "prefix": "cafn",
+    "body": [
+      "const ${1:fnName} = (${2:value}) => {",
+      "\tlet result = \"\";\n",
+      "\treturn result;",
+      "}\n"
+    ],
+    "description": "Arrow Function"
+  },
+  "Normal Function": {
+    "prefix": "cnfn",
+    "body": [
+      "function ${1:fnName}(${2:value}) {",
+      "\tlet result = \"\";\n",
+      "\treturn result;",
+      "}\n"
+    ],
+    "description": "Normal Function"
+  },
+  "Object.forEach": {
+    "prefix": "objfor",
+    "body": [
+      "Object.keys(${1:obj}).forEach(${2:key} => {",
+      "\tlet item = ${1:obj}[key];\n",
+      "})\n"
+    ],
+    "description": "Object ForEach"
+  },
+  "Array.forEach": {
+    "prefix": "afor",
+    "body": [
+      "${1:array}.forEach(${2:item} => {\n",
+      "})\n"
+    ],
+    "description": "Array ForEach"
+  },
+  "Array.forEach & Index": {
+    "prefix": "afori",
+    "body": [
+      "${1:array}.forEach((${2:item}, ${3:index}) => {\n",
+      "})\n"
+    ],
+    "description": "Array.forEach & Index"
+  },
+  "Array Map": {
+    "prefix": "amap",
+    "body": [
+      "const mapResult = ${1:array}.map(${2:item} => {",
+      "\tlet result = item;\n",
+      "\treturn result;",
+      "})\n"
+    ],
+    "description": "Array Map"
+  },
+  "Array.map & Index": {
+    "prefix": "amapi",
+    "body": [
+      "const mapResult = ${1:array}.map((${2:item}, ${3:index}) => {",
+      "\tlet result = ${2:item};\n",
+      "\treturn result;",
+      "})\n"
+    ],
+    "description": "Array Map & Index"
+  },
+  "Array.filter": {
+    "prefix": "afilter",
+    "body": [
+      "const filteredResult = ${1:array}.filter(${2:item} => {",
+      "\tlet result = item;\n",
+      "\treturn result;",
+      "})\n"
+    ],
+    "description": "Array Map"
+  },
+  "Array.findIndex": {
+    "prefix": "afind",
+    "body": [
+      "const index = ${1:array}.findIndex(${2:element})\n"
+    ],
+    "description": "Array.findIndex"
+  },
+  "Array.sort": {
+    "prefix": "asort",
+    "body": [
+      "const sortedResult = ${1:array}.sort((e1, e2) => {\n",
+      "\treturn e1 - e2;",
+      "})\n"
+    ],
+    "description": "Array.sort"
+  },
+  "watchEffect": {
+    "prefix": "wae",
+    "body": [
+        "watchEffect(() => {",
+        "\t${1:console.log('watchEffect')}",
+        "})"
+    ],
+    "description": "watchEffect"
+  },
+  "watch": {
+    "prefix": "wa",
+    "body": [
+        "watch(",
+        "\t${1:count},",
+        "\t(${1:count}, pre${1:Count}) => {",
+        "\t\tconsole.log('watch')",
+        "\t},",
+        "\t{",
+        "\t\timmediate: true",
+        "\t}",
+        ")"
+    ],
+    "description": "watch"
+  }
+}
