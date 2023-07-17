@@ -1,0 +1,28 @@
+{
+  "Functional Component": {
+    "prefix": "rfc",
+    "body": [
+      "function ${1:${TM_FILENAME_BASE}}() {",
+      "\treturn (",
+      "\t\t<div>${1:${TM_FILENAME_BASE}}</div>",
+      "\t)",
+      "}",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Functional Component"
+  },
+  "Functional Component & State": {
+    "prefix": "rfcs",
+    "body": [
+      "import { useState } from \"react\";",
+      "function ${1:${TM_FILENAME_BASE}}() {",
+      "\tconst [state, setstate] = useState({})\n",
+      "\treturn (",
+      "\t\t<div>${1:${TM_FILENAME_BASE}}</div>",
+      "\t)",
+      "}",
+      "export default ${1:${TM_FILENAME_BASE}};"
+    ],
+    "description": "Functional Component & State"
+  }
+}

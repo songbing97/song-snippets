@@ -1,21 +1,74 @@
 {
-  "name": "my-snippets",
-  "displayName": "my-snippets",
+  "name": "song-snippets",
+  "displayName": "Song Snippets",
   "description": "",
   "version": "0.0.1",
+  "icon": "img/logo.png",
   "engines": {
     "vscode": "^1.80.0"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
+  "keywords": [
+    "snippet",
+    "javascript",
+    "vue",
+    "react"
+],
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "my-snippets.helloWorld",
-      "title": "Hello World"
-    }]
+    "languages": [
+      {
+          "id": "vue",
+          "aliases": [
+              "Vue",
+              "vue"
+          ],
+          "extensions": [
+              ".vue"
+          ]
+      }
+    ],
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/js.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/js.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html.json"
+      },
+      {
+          "language": "vue-html",
+          "path": "./snippets/html.json"
+      },
+      {
+          "language": "html",
+          "path": "./snippets/vue.json"
+      },
+      {
+          "language": "vue",
+          "path": "./snippets/js.json"
+      },
+      {
+          "language": "vue",
+          "path": "./snippets/html.json"
+      },
+      {
+          "language": "vue",
+          "path": "./snippets/vue.json"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",

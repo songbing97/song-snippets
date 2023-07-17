@@ -1,0 +1,17 @@
+{
+  "v-for": {
+    "prefix": "vfor",
+    "body": [
+        "v-for='${1:item} in ${2:items}' :key='${3:item.id}'"
+    ],
+    "description": "v-for"
+  },
+  "v-for & index": {
+    "prefix": "vfori",
+    "body": [
+        "v-for='(${1:item}, ${2:index}) in ${3:items}' :key='${2:index}'"
+    ],
+    "description": "v-for & index"
+  }
+
+}

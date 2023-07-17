@@ -1,0 +1,35 @@
+{
+  "vue": {
+      "prefix": "vue",
+      "body": [
+        "<script setup>\n",
+        "</script>\n",
+        "<template>",
+        "\t<div>",
+        "\t\t${0:${TM_FILENAME_BASE}}",
+        "\t</div>",
+        "</template>\n",
+        "<style lang=\"scss\" scoped>\n",
+        "</style>\n"
+      ],
+      "description": "vue template"
+  },
+  "script": {
+      "prefix": "setup",
+      "body": [
+          "<script setup>",
+          "\t$0",
+          "</script>\n"
+      ],
+      "description": "script setup"
+  },
+  "style scoped": {
+      "prefix": "sty",
+      "body": [
+          "<style lang=\"scss\" scoped>\n",
+          "\t$0",
+          "</style>"
+      ],
+      "description": "style scoped"
+  }
+}
