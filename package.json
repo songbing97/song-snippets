@@ -15,7 +15,8 @@
     "snippet",
     "javascript",
     "vue",
-    "react"
+    "react",
+    "typescript"
   ],
   "repository": {
     "type": "git",
@@ -73,6 +74,18 @@
       {
           "language": "vue",
           "path": "./snippets/vue.json"
+      },
+      {
+          "language": "typescript",
+          "path": "./snippets/ts.json"
+      },
+      {
+          "language": "typescriptreact",
+          "path": "./snippets/ts.json"
+      },
+      {
+          "language": "typescriptreact",
+          "path": "./snippets/tsx.json"
       }
     ]
   },
