@@ -2,7 +2,7 @@
   "name": "song-snippets",
   "displayName": "Song Snippets",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "img/logo.png",
   "publisher": "songbing",
   "engines": {
@@ -28,14 +28,14 @@
   "contributes": {
     "languages": [
       {
-          "id": "vue",
-          "aliases": [
-              "Vue",
-              "vue"
-          ],
-          "extensions": [
-              ".vue"
-          ]
+        "id": "vue",
+        "aliases": [
+          "Vue",
+          "vue"
+        ],
+        "extensions": [
+          ".vue"
+        ]
       }
     ],
     "snippets": [
@@ -56,36 +56,36 @@
         "path": "./snippets/html.json"
       },
       {
-          "language": "vue-html",
-          "path": "./snippets/html.json"
+        "language": "vue-html",
+        "path": "./snippets/html.json"
       },
       {
-          "language": "html",
-          "path": "./snippets/vue.json"
+        "language": "html",
+        "path": "./snippets/vue.json"
       },
       {
-          "language": "vue",
-          "path": "./snippets/js.json"
+        "language": "vue",
+        "path": "./snippets/js.json"
       },
       {
-          "language": "vue",
-          "path": "./snippets/html.json"
+        "language": "vue",
+        "path": "./snippets/html.json"
       },
       {
-          "language": "vue",
-          "path": "./snippets/vue.json"
+        "language": "vue",
+        "path": "./snippets/vue.json"
       },
       {
-          "language": "typescript",
-          "path": "./snippets/ts.json"
+        "language": "typescript",
+        "path": "./snippets/ts.json"
       },
       {
-          "language": "typescriptreact",
-          "path": "./snippets/ts.json"
+        "language": "typescriptreact",
+        "path": "./snippets/ts.json"
       },
       {
-          "language": "typescriptreact",
-          "path": "./snippets/tsx.json"
+        "language": "typescriptreact",
+        "path": "./snippets/tsx.json"
       }
     ]
   },
