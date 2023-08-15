@@ -90,6 +90,7 @@
     ]
   },
   "scripts": {
+    "build": "vsce package",
     "update": "vsce publish patch",
     "lint": "eslint .",
     "pretest": "npm run lint",
