@@ -125,7 +125,7 @@
   "useState": {
     "prefix": "uss",
     "body": [
-        "const [state, setState] = useState<${1:boolean}>(${2:true})"
+        "const [isOpen, setOpen] = useState<${1:boolean}>(${2:true})"
     ],
     "description": "useState"
   }

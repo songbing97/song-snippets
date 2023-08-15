@@ -2,9 +2,10 @@
   "Functional Component": {
     "prefix": "rfc",
     "body": [
+      "import React from 'react'",
       "interface ${1:${TM_FILENAME_BASE}}Props{\n",
       "}\n",
-      "const ${1:${TM_FILENAME_BASE}}:React.FC<${1:${TM_FILENAME_BASE}}Props> = ({ children }) => {",
+      "const ${1:${TM_FILENAME_BASE}}:React.FC<${1:${TM_FILENAME_BASE}}Props> = () => {",
       "\treturn (",
       "\t\t<div>${1:${TM_FILENAME_BASE}}</div>",
       "\t)",
@@ -16,11 +17,11 @@
   "Functional Component & State": {
     "prefix": "rfcs",
     "body": [
-      "import { useState } from \"react\";",
+      "import React, { useState } from \"react\";",
 
       "interface ${1:${TM_FILENAME_BASE}}Props{\n",
       "}\n",
-      "const ${1:${TM_FILENAME_BASE}}:React.FC<${1:${TM_FILENAME_BASE}}Props> = ({ children }) => {",
+      "const ${1:${TM_FILENAME_BASE}}:React.FC<${1:${TM_FILENAME_BASE}}Props> = () => {",
       "\tconst [state, setState] = useState({})\n",
       "\treturn (",
       "\t\t<div>${1:${TM_FILENAME_BASE}}</div>",
