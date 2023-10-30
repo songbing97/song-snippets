@@ -2,7 +2,7 @@
   "name": "song-snippets",
   "displayName": "Song Snippets",
   "description": "",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "icon": "img/logo.png",
   "publisher": "songbing",
   "engines": {
