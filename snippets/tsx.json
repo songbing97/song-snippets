@@ -30,5 +30,76 @@
       "export default ${1:${TM_FILENAME_BASE}};"
     ],
     "description": "Functional Component & State"
+  },
+  "array_mapx": {
+    "prefix": "mapx",
+    "body": [
+      "Array(${1:9}).fill(0).map((item, index) => <div key={index}>1</div>)"
+    ],
+    "description": "jsx array map"
+  },
+  "linear": {
+    "prefix": "linear",
+    "body": [
+      "<div",
+      "className='p-4 w-100 h-80 box-content rounded-20 overflow-hidden'",
+      "style={{",
+      "  background: 'linear-gradient(270deg,#F0B151,#F6E3A2,#F0B151)'",
+      "}}",
+    ">",
+      "<div",
+        "className='h-full rounded-20'",
+        "style={{",
+          "background: 'linear-gradient(0deg,#FFBD54,#FFA352)'",
+        "}}",
+      "></div>",
+    "</div>"
+    ]
+  },
+  "phone": {
+    "prefix": "linear",
+    "body": [
+      "<div className='flex w-130 overflow-hidden'>",
+        "<span className='truncate'>139807</span>",
+       " <span className='flex-shrink-0'>4324</span>",
+      "</div>"
+    ]
+  },
+  "fcb": {
+    "prefix": "fcb",
+    "body": [
+      "<div className='fcb'>",
+        "<div></div>",
+       " <div></div>",
+      "</div>"
+    ]
+  },
+  "fcc": {
+    "prefix": "fcc",
+    "body": [
+      "<div className='fcc'>",
+        "<div></div>",
+       " <div></div>",
+      "</div>"
+    ]
+  },
+  "useButton": {
+    "prefix": "useButton",
+    "body": [
+      "<${1:Local}Button",
+      "className='w- h- fcc px-10'",
+      "style={{",
+        "backgroundImage: `url(${useImage('test')})`",
+      "}}",
+    ">",
+      "aaa",
+    "</${1:Local}Button>"
+    ]
+  },
+  "trans": {
+    "prefix": "translator",
+    "body": [
+      "<Translator id= />"
+    ]
   }
 }

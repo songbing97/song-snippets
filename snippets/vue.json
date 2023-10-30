@@ -31,5 +31,63 @@
           "</style>"
       ],
       "description": "style scoped"
+  },
+  "linear": {
+    "prefix": "linear",
+    "body": [
+      "<div",
+      "class='p-4 w-100 h-80 box-content rounded-20 overflow-hidden'",
+      ":style='{",
+      "  background: 'linear-gradient(270deg,#F0B151,#F6E3A2,#F0B151)'",
+      "}'",
+    ">",
+      "<div",
+        "class='h-full rounded-20'",
+        "style='{",
+          "background: 'linear-gradient(0deg,#FFBD54,#FFA352)'",
+        "}'",
+      "></div>",
+    "</div>"
+    ]
+  },
+  "phone": {
+    "prefix": "phone",
+    "body": [
+      "<div class='flex w-130 overflow-hidden'>",
+        "<span class='truncate'>139807</span>",
+       " <span class='flex-shrink-0'>4324</span>",
+      "</div>"
+    ]
+  },
+  "fcb": {
+    "prefix": "fcb",
+    "body": [
+      "<div class='fcb'>",
+        "<div></div>",
+       " <div></div>",
+      "</div>"
+    ]
+  },
+  "fcc": {
+    "prefix": "fcc",
+    "body": [
+      "<div class='fcc'>",
+        "<div></div>",
+       " <div></div>",
+      "</div>"
+    ]
+  },
+  "useButton": {
+    "prefix": "useButton",
+    "body": [
+      "<${1:Local}Button",
+      "class='w- h- fcc px-10'",
+      "style='{",
+        "backgroundImage: `url(${useImage('test')})`",
+      "}'",
+    ">",
+      "aaa",
+    "</${1:Local}Button>"
+    ]
   }
 }

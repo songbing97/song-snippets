@@ -25,6 +25,11 @@ This plugin introduces some basic shortcut snippets, including js, vue, react.
 | ------: | --------------------------------------------------- |
 | `rfc→` | `create a functional component` |
 | `rfcs→` | `create a functional component with state` |
+| `fcc` | `create a block of flex items-center justify-center` |
+| `fcb` | `create a block of flex items-center justify-between` |
+| `linear` | `create a block of linear border` |
+| `phone` | `create a block of phone` |
+| `useButton` | `create a Button Element with a background image` |
 
 ## Vue Snippets
 
@@ -35,3 +40,7 @@ This plugin introduces some basic shortcut snippets, including js, vue, react.
 | `vue→` | `vue3 template` |
 | `setup→` | `vue3 setup script` |
 | `sty` | `vue style scss` |
+| `fcc` | `create a block of flex items-center justify-center` |
+| `fcb` | `create a block of flex items-center justify-between` |
+| `linear` | `create a block of linear border` |
+| `useButton` | `create a Button Element with a background image` |
