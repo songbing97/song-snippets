@@ -88,9 +88,7 @@
     "body": [
       "<${1:Local}Button",
       "className='w- h- fcc px-10'",
-      "style={{",
-        "backgroundImage: `url(${useImage('test')})`",
-      "}}",
+      "style={{ backgroundImage: `url(${useImage('test')})` }}",
     ">",
       "aaa",
     "</${1:Local}Button>"
@@ -105,9 +103,7 @@
   "url": {
     "prefix": "url",
     "body": [
-      "style={",
-        "backgroundImage: `url(${useImage('${2:bg'})})`",
-      "}"
+      "style={{ backgroundImage: `url(${useImage('${2:bg'})})` }}"
     ]
   }
 }
