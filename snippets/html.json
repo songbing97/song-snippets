@@ -2,7 +2,7 @@
   "v-for": {
     "prefix": "vfor",
     "body": [
-        "v-for='${1:item} in ${2:items}' :key='${3:item.id}'"
+        "v-for='item in ${2:items}' :key='${3:item.id}'"
     ],
     "description": "v-for"
   },

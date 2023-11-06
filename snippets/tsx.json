@@ -101,5 +101,13 @@
     "body": [
       "<Translator id= />"
     ]
+  },
+  "url": {
+    "prefix": "url",
+    "body": [
+      "style={",
+        "backgroundImage: `url(${useImage('${2:bg'})})`",
+      "}"
+    ]
   }
 }
