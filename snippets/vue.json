@@ -82,7 +82,7 @@
     "body": [
       "<${1:Local}Button",
       "class='w- h- fcc px-10'",
-      "style='{ backgroundImage: `url(${useImage('test')})` }'",
+      ":style='{ backgroundImage: `url(${useImage('test')})` }'",
     ">",
       "aaa",
     "</${1:Local}Button>"
