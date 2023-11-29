@@ -15,19 +15,9 @@
   "linear": {
     "prefix": "linear",
     "body": [
-      "<div",
-      "class='p-4 w-100 h-80 box-content rounded-20 overflow-hidden'",
-      ":style='{",
-      "  background: 'linear-gradient(270deg,#F0B151,#F6E3A2,#F0B151)'",
-      "}'",
-    ">",
-      "<div",
-        "class='h-full rounded-20'",
-        "style='{",
-          "background: 'linear-gradient(0deg,#FFBD54,#FFA352)'",
-        "}'",
-      "></div>",
-    "</div>"
+      "<div class=\"p-2 box-content overflow-hidden\">",
+        "<div class=\"h-full\"></div>",
+      "</div>"
     ]
   },
   "phone": {
@@ -61,7 +51,7 @@
     "prefix": "useButton",
     "body": [
       "<${1:Local}Button",
-      "class='w- h- fcc px-10'",
+      "class=\"w- h- fcc px-10\"",
       ":style=\"{ backgroundImage: `url(${useImage('test')})` }\"",
     ">",
       "aaa",
