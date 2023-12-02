@@ -2,14 +2,14 @@
   "v-for": {
     "prefix": "vfor",
     "body": [
-        "v-for=\"item in ${2:items}\" :key=\"item\""
+        "v-for=\"item in ${2:items}\" :key=\"key\""
     ],
     "description": "v-for"
   },
   "v-for & index": {
     "prefix": "vfori",
     "body": [
-      "v-for=\"(item, index) in ${2:items}\" :key=\"item\""
+      "v-for=\"(item, index) in ${2:items}\" :key=\"key\""
     ],
     "description": "v-for & index"
   }
