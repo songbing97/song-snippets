@@ -12,8 +12,8 @@
       ],
       "description": "vue template"
   },
-  "linear": {
-    "prefix": "linear",
+  "divlinear": {
+    "prefix": "divlinear",
     "body": [
       "<div class=\"p-2 box-content overflow-hidden\">",
         "<div class=\"h-full\"></div>",
@@ -29,8 +29,8 @@
       "</div>"
     ]
   },
-  "fcb": {
-    "prefix": "fcb",
+  "divfcb": {
+    "prefix": "divfcb",
     "body": [
       "<div class='fcb'>",
         "<div></div>",
@@ -38,19 +38,13 @@
       "</div>"
     ]
   },
-  "fcc": {
-    "prefix": "fcc",
+  "divfcc": {
+    "prefix": "divfcc",
     "body": [
       "<div class='fcc'>",
         "<div></div>",
        " <div></div>",
       "</div>"
-    ]
-  },
-  "$t": {
-    "prefix": "$t",
-    "body": [
-      "{{ \\$t(${1:}) }}"
     ]
   },
   "watchE": {
