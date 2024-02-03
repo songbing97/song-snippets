@@ -12,8 +12,8 @@
       ],
       "description": "vue template"
   },
-  "divlinear": {
-    "prefix": "divlinear",
+  "linear": {
+    "prefix": "linear",
     "body": [
       "<div class=\"p-2 box-content overflow-hidden\">",
         "<div class=\"h-full\"></div>",
@@ -29,8 +29,8 @@
       "</div>"
     ]
   },
-  "divfcb": {
-    "prefix": "divfcb",
+  "cb": {
+    "prefix": "cb",
     "body": [
       "<div class='fcb'>",
         "<div></div>",
@@ -38,8 +38,8 @@
       "</div>"
     ]
   },
-  "divfcc": {
-    "prefix": "divfcc",
+  "cc": {
+    "prefix": "cc",
     "body": [
       "<div class='fcc'>",
         "<div></div>",
@@ -47,12 +47,26 @@
       "</div>"
     ]
   },
-  "watchE": {
-    "prefix": "watchE",
+  "con": {
+    "prefix": "con",
     "body": [
       "watchEffect(() => {",
         "console.log()",
       "})"
+    ]
+  },
+  "mon": {
+    "prefix": "mon",
+    "body": [
+      "onMounted(() => {",
+        "console.log()",
+      "})"
+    ]
+  },
+  "ll": {
+    "prefix": "ll",
+    "body": [
+      "<TranslatorVue name=${0:} />"
     ]
   }
 }
