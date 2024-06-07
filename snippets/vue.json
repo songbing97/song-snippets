@@ -68,5 +68,11 @@
     "body": [
       "<TranslatorVue name=${0:} />"
     ]
+  },
+  ":class": {
+    "prefix": ":class",
+    "body": [
+      ":class=\"getClass('${0:}', '')\" />"
+    ]
   }
 }
